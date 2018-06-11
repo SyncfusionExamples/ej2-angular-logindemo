@@ -1,0 +1,37 @@
+<div class="layout-container">
+  <div class="header-container">
+    <div class="bar-header-container">
+        <i class="fas fa-home"></i>
+    </div>
+    <div class="header-text-container">
+      <div class="header-text">
+        Syncfusion Customer Details
+      </div>
+    </div>
+    <div class="header-place-holder"></div>
+    <div class="header-logout-continer">
+        <button ejs-button class="logout-btn" (click)="logout()">Logout</button>
+    </div>
+  </div>
+  <div class="content-container">
+    <!-- <div class="nav-right-continer">
+      <div class="nav-home-comp">
+          <i class="fas fa-home"></i>
+      </div>
+      <div class="nav-place-holder"></div>
+    </div> -->
+    <div class="view-container" >
+        <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="footer-container">
+    <div class="document">
+      <a href="https://ej2.syncfusion.com/16.1.37/documentation/?lang=typescript">Documentaion</a>
+    </div>
+    <div class="blog">
+      <a href="https://blog.syncfusion.com/">Blogs</a>
+    </div>
+    <div class="footer-place-holder"></div>
+    <div class="copy-right">Copyright © 2001-2018 Syncfusion Inc.</div>
+  </div>
+</div>
