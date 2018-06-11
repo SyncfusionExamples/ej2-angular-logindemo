@@ -1,0 +1,29 @@
+<div class="login-outer-container">
+  <div class="login-inner-item e-card">
+    <div class="e-card-header login-header">
+      <div class="e-card-header-caption login-header-caption">
+        <div class="e-card-header-title login-header-title">Login</div>
+      </div>
+    </div>
+    <div class="e-card-content">
+      <div class="card-content-container">
+        <div class="username-container">
+          <div class="e-input-group username-group">
+            <input class="e-input username-textbox" type="text" placeholder="Username" [(ngModel)]="username" />
+          </div>
+        </div>
+        <div class="password-container">
+          <div class="e-input-group password-group">
+            <input class="e-input password-box" type="password" placeholder="Password" [(ngModel)]="password" />
+          </div>
+        </div>
+        <div class="login-action-container">
+          <button ejs-button class="login-btn" (click)="login()">Submit</button>
+        </div>
+        <div class="error-container" [hidden]="errHide">
+          <div class="err-msg" [hidden]="errHide">* Please enter valid credentials since Password and Username dose not match.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

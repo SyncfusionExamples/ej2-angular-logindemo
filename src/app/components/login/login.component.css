@@ -1,0 +1,72 @@
+.login-outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #77a7f4;
+  margin: 0px;
+  padding: 0px;
+}
+
+.login-inner-item {
+  width: 500px;
+}
+
+.e-card .e-card-header.login-header .e-card-header-caption.login-header-caption .e-card-header-title.login-header-title {
+  font-size: 30px;
+}
+
+.e-card .e-card-header.login-header .e-card-header-caption.login-header-caption:first-child {
+  align-items: center;
+}
+
+.card-content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.username-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.e-input-group.username-group {
+  width: 50%;
+  align-items: center;
+  margin: 25px 0px;
+}
+
+.password-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.e-input-group.password-group {
+    width: 50%;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.login-action-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn{
+    margin: 25px 0px;
+}
+
+.error-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.err-msg{
+    margin: 10px 25px;
+    color: red;
+}
